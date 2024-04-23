@@ -4,6 +4,9 @@ PS1="%{$fg[green]%}[%{$reset_color%} %{$fg[red]%}%1~%{$reset_color%} %{$fg[green
 setopt autocd
 setopt interactive_comments
 
+# Back to Documents Shortcut
+alias doc="cd ~/Documents"
+
 # The n is too much
 alias vim="nvim"
 alias vi="nvim"
